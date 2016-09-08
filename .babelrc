@@ -4,5 +4,11 @@
     "development": {
       "presets": ["react-hmre"]
     }
-  }
+  },
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
 }
