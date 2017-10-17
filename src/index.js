@@ -1,6 +1,7 @@
-import { PropTypes, Children, Component } from 'react';
-import { buffers, channel } from 'redux-saga'
+import { Children, Component } from 'react';
+import { buffers, channel } from 'redux-saga';
 import { call, fork, put } from 'redux-saga/effects';
+import PropTypes from 'prop-types';
 
 export class SagaProvider extends Component {
   static propTypes = {
